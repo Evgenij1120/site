@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+header{
+    background-image: url(images/head.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding-top: 400px;
+}
+.best{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    color: white;
+}
+.but{
+    border: none;
+    padding: 15px 30px 15px 30px;
+    border-radius:30px ;
+    color: turquoise;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+.form{
+    display: inline;
+    margin-left: 30px;
+}
+.card{
+    width: 400px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px rgb(255, 138, 138);
+    display: inline-block;
+    margin:25px;
+
+}
+img{
+    border-radius: 25px 25px 0 0; 
+}
+h1{
+    text-align: center;
+}
+p{
+    margin: 0 60px 0 60px;
+}
+p, span{
+
+    text-align: center;
+}
+main{
+text-align: center;
+}
+footer{
+    background-color: tomato;
+    text-align: center;
+}
+.contact, .map, .networks{
+    display: inline-block;
+    width: 180px;
+    margin: 60px 200px 60px 100px; 
+    color: white;  
+}
+.card:hover{
+    box-shadow: 1px 1px 10px rgb(45, 230, 199);
+}
+@media(max-width:768px){
+    .best{
+        font-size: 50px;
+    }
+    header{
+        padding-top: 200px;
+    }
+    .contact, .map, .networks{
+        margin: 28px; 
+    }
+    
+
+}
+
+
+
